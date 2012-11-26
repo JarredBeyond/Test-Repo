@@ -1,0 +1,447 @@
+/* Reset CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+a:focus {
+	outline: 1px dotted;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: .8em;
+}
+
+
+#facebook-frame {
+	width: 810px;
+	background-color: #B6E0FA;
+}
+
+#calendar-container {
+	width: 777px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#calendar-header {
+	width: 777px;
+	height: 125px;
+	background-image: url(https://s3.amazonaws.com/facebook-calendar/header-bg.png);
+}
+
+#calendar-logo {
+	width: 177px;
+	float: left;
+}
+
+#calendar-logo img {
+	margin: 20px 43px 20px 59px;
+}
+
+#calendar-month {
+	width: 430px;
+	float: left;
+}
+
+#calendar-month h3 {
+	font-family: MuseoSansRounded-700, Arial;
+	font-size: 64px;
+	color: #707070;
+	text-align: center;
+	padding-top: 12px;
+	margin: 0;
+	text-shadow: 1px 1px 1px #0098EE;
+}
+
+#calendar-tagline {
+	float: left;
+	width: 170px;
+	margin-top: 3px;
+}
+
+#calendar-content {
+	width: 776px;
+	margin-right: 1px;
+	padding-top: 6px;
+}
+
+.weekday.last, .day.last {
+	margin-right: 0;
+}
+
+#week-labels {
+	margin-bottom: 2px;
+	margin-left: 1px;
+}
+
+.week-row {
+	margin-bottom: 2px;
+}
+
+.weekday {
+	width: 109px;
+	height: 38px;
+	background-image: url(https://s3.amazonaws.com/facebook-calendar/weekday-bg.png);
+	text-align: center;
+	float: left;
+	margin-right: 2px;
+	background-position: 1px 0;
+}
+
+.weekday p {
+	padding: 6px;
+	margin-bottom: 0;
+	font-family: MuseoSansRounded-300, Arial;
+	font-size: 16px;
+	color: #707070;
+}
+
+.day {
+	width: 109px;
+	height: 118px;
+	background-image: url(https://s3.amazonaws.com/facebook-calendar/calendar-sprites.png);
+	padding-right: 1px;
+	float: left;
+	margin-right: 1px;
+	border-radius: 10px;
+	padding-bottom: 1px;
+}
+
+.day:hover {
+	background-color: #FE9A26;
+}
+
+.pre-days {
+	width: 222px;
+	height: 118px;
+	float: left;
+}
+
+.pre-days h4 {
+	font-family: RulyRG;
+	font-size: 30px;
+	color: #FE9A26;
+	text-align: center;
+	margin: 5px 0 0 0;
+	text-shadow: 0 0 5px #FFF;
+}
+
+.pre-days p {
+	font-size: 16px;
+	color: #707070;
+	text-shadow: 0 0 5px #FFF;
+	text-align: center;
+	line-height: 18px;
+	margin: 10px;
+}
+
+.jan-1 {
+	background-position: -221px 1px;
+}
+
+.jan-2 {
+	background-position: -332px 1px;
+}
+
+.jan-3 {
+	background-position: -443px 1px;
+}
+
+.jan-4 {
+	background-position: -554px 1px;
+}
+
+.jan-5 {
+	background-position: -665px 1px;
+}
+
+.jan-6 {
+	background-position: 1px -120px;
+}
+
+.jan-7 {
+	background-position: -110px -120px;
+}
+
+.jan-8 {
+	background-position: -221px -120px;
+}
+
+.jan-9 {
+	background-position: -332px -120px;
+}
+
+.jan-10 {
+	background-position: -443px -120px;
+}
+
+.jan-11 {
+	background-position: -554px -120px;
+}
+
+.jan-12 {
+	background-position: -665px -120px;
+}
+
+.jan-13 {
+	background-position: 1px -241px;
+}
+
+.jan-14 {
+	background-position: -110px -241px;
+}
+
+.jan-15 {
+	background-position: -221px -241px;
+}
+
+.jan-16 {
+	background-position: -332px -241px;
+}
+
+.jan-17 {
+	background-position: -443px -241px;
+}
+
+.jan-18 {
+	background-position: -554px -241px;
+}
+
+.jan-19 {
+	background-position: -665px -241px;
+}
+
+.jan-20 {
+	background-position: 1px -362px;
+}
+
+.jan-21 {
+	background-position: -110px -362px;
+}
+
+.jan-22 {
+	background-position: -221px -362px;
+}
+
+.jan-23 {
+	background-position: -332px -362px;
+}
+
+.jan-24 {
+	background-position: -443px -362px;
+}
+
+.jan-25 {
+	background-position: -554px -362px;
+}
+
+.jan-26 {
+	background-position: -665px -362px;
+}
+
+.jan-27 {
+	background-position: 1px -483px;
+}
+
+.jan-28 {
+	background-position: -110px -483px;
+}
+
+.jan-29 {
+	background-position: -221px -483px;
+}
+
+.jan-30 {
+	background-position: -332px -483px;
+}
+
+.jan-31 {
+	background-position: -443px -483px;
+}
+
+.post-days {
+	width: 221px;
+	float: left;
+}
+
+.post-days p {
+	font-family: MuseoSansRounded-700, Arial;
+	color: #707070;
+	text-shadow: 1px 1px 1px #0098EE;
+	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+	zoom: 1;
+}
